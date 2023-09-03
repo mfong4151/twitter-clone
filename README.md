@@ -1,3 +1,5 @@
+Current Twitter clone that I'm doing in Java Spring Boot. Not a huge portfolio project, just a way for me to dump commits on my Github.
+
 User Table:
 
     user_id (Primary Key)
