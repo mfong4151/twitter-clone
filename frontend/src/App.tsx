@@ -1,21 +1,33 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './index.css'
 import Home from './components/Home'
+import Left from './components/Left'
+import Right from './components/Right'
 
 function App() {
   return (
-    <div className='flex-direction-row'>
+    <div className='flex flex-direction-row'>
       <BrowserRouter>
-        <Route path='/' element={<Home/>}/>
-        
+
+      <Left/>
+
+      <section id='mid' className='section-h'>
+          <Routes>
+
+            <Route path='/' element={<Home/>}/>
+          </Routes>
+
+
+      </section>
       </BrowserRouter>
-      <div id='right'>
 
+      <Right>
 
-      </div>
+      </Right>
       
     </div>
+
   );
 }
 

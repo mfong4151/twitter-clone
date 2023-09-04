@@ -9,8 +9,9 @@ const index:FC<Props> = () => {
 
 
   return (
-    <div id='' className=''>
-    </div>
+    <section id='right' className='section-h'>
+
+    </section>
   );
 };
 

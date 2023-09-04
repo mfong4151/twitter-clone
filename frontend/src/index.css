@@ -2,3 +2,18 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+#mid{
+    min-width :50%;
+    border-left: grey solid 1px;
+    border-right: grey solid 1px;
+
+}
+
+
+
+@layer components{
+    .section-h{
+        @apply h-screen bg-black;
+    }
+}

@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+#left{
+    width: 27%;
+}
+
+@layer components{
+    nav{
+        @apply flex justify-center
+    }
+    nav > ul{
+        @apply flex justify-start flex-col
+    }
+    nav > ul >li{
+        @apply hover:bg-gray-500 h-12 flex justify-start items-center w-auto rounded-3xl text-white
+    }
+
+}
