@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 interface Props{
 
 }
-const index:FC<Props> = () => {
+const Left:FC<Props> = () => {
 
 
   return (
@@ -52,4 +52,4 @@ const index:FC<Props> = () => {
   );
 };
 
-export default index;
+export default Left;

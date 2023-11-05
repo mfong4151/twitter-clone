@@ -1,4 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 #right{
     min-width:30%;
+}
+
+@layer components{
+    #right > article{
+        @apply bg-slate-700 w-2/3 text-white px-4 py-2 m-4 rounded-lg;        
+    }
+    
+    #right h3{
+        @apply text-lg font-bold;
+    }
+
 }

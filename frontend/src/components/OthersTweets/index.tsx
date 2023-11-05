@@ -1,11 +1,10 @@
 import React, {FC} from 'react';
-import '../../index.css'
-import './home.css';
+import './otherstweets.css';
 
 interface Props{
 
 }
-const index:FC<Props> = () => {
+const OthersTweets:FC<Props> = () => {
 
 
   return (
@@ -14,4 +13,4 @@ const index:FC<Props> = () => {
   );
 };
 
-export default index;
+export default OthersTweets;

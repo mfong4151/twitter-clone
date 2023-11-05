@@ -1,5 +1,7 @@
 package com.mfong.tweetr.user;
 
+
+// https://www.youtube.com/watch?v=9SGDpanrc8U&t=2366s
 import java.sql.Date;
 
 import jakarta.persistence.Entity;
@@ -9,6 +11,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
+
+
+//Not shown here, @Transient makes it such that you dont need the column explicitly in the DB
 @Entity
 @Table(name="\"users\"")
 public class User{

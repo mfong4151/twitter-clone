@@ -1,7 +1,7 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './index.css'
-import Home from './components/Home'
+import Home from './components/Main'
 import Left from './components/Left'
 import Right from './components/Right'
 
@@ -10,22 +10,22 @@ function App() {
     <div className='flex flex-direction-row'>
       <BrowserRouter>
 
-      <Left/>
+        <Left />
 
-      <section id='mid' className='section-h'>
+        <section id='mid' className='section-h'>
           <Routes>
 
-            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<Home />} />
           </Routes>
 
 
-      </section>
+        </section>
       </BrowserRouter>
 
       <Right>
 
       </Right>
-      
+
     </div>
 
   );
